@@ -34,7 +34,7 @@ function App() {
   // eslint-disable-next-line no-unused-vars
   return(
   <>
-  <NavBar title="TextMagic" mode={mode} toggleMode={toggleMode} key={new Date()}/>
+  <NavBar title="TextWizard" mode={mode} toggleMode={toggleMode} key={new Date()}/>
   <Alert alert={alert}/>
   <div className="container my-5">
   {/* <TextForm showAlert={showAlert} heading="Write your Text here" mode={mode}/> */}
